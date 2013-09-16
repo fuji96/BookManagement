@@ -1,0 +1,14 @@
+one:
+  body:          good
+  user_id:       1
+  bookdatum_id:  1
+  
+two:
+  body:          bad
+  user_id:       1
+  bookdatum_id:  2
+
+three:
+  body:          bad
+  user_id:       2
+  bookdatum_id:  1

@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @bookdatum.title %>
+</p>
+
+<p>
+  <strong>Authors:</strong>
+  <%= @bookdatum.authors %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @bookdatum.price %>
+</p>
+
+<p>
+  <strong>Published:</strong>
+  <%= @bookdatum.published %>
+</p>
+
+
+<%= link_to 'Edit', edit_bookdatum_path(@bookdatum) %> |
+<%= link_to 'Back', bookdata_path %>

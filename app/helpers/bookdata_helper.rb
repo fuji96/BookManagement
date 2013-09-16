@@ -1,0 +1,2 @@
+module BookdataHelper
+end
